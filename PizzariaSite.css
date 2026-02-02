@@ -43,3 +43,22 @@ nav a {
     text-decoration: none;
     font-weight: 700;
 }
+
+.hero {
+  background-image: url("img/pexels-narda-yescas-1566837.jpg");
+  background-size: cover;
+  color: var(--color-white);
+  min-height: 75vh;
+  padding: 10rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
