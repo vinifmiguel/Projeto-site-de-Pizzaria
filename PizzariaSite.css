@@ -79,3 +79,34 @@ section:not(#home) {
   padding: 4rem;
   text-align: center;
 }
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+.menu-list {
+  list-style: none;
+}
+
+.menu-list > li {
+  background-color: var(--color-light);
+  border-radius: .5rem;
+  box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  margin: 1.5rem;
+  height: 28rem;
+  width: 28rem;
+  text-align: left;
+}
+
+.menu-list img {
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  object-fit: cover;
+  width: 100%;
+}
